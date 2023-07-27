@@ -1,0 +1,30 @@
+{
+    "id": "64c1fd17ae6d655ef30d4da7",
+    "name": "EVCSampleTrigger",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE",
+            "DELETE"
+        ],
+        "database": "sample_mflix",
+        "collection": "movies",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": false,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "myFunc"
+            }
+        }
+    }
+}
