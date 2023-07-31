@@ -9,7 +9,7 @@
             "DELETE"
         ],
         "database": "sample_mflix",
-        "collection": "movies",
+        "collection": "sessions",
         "service_name": "mongodb-atlas",
         "match": {},
         "project": {},
