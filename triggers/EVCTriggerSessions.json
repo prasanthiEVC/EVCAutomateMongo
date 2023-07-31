@@ -1,6 +1,6 @@
 {
     "id": "64c1fd17ae6d655ef31d4da7",
-    "name": "EVCSampleTrigger",
+    "name": "EVCTriggerSessions",
     "type": "DATABASE",
     "config": {
         "operation_types": [
