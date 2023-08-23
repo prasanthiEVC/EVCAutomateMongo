@@ -1,11 +1,12 @@
 {
-    "id": "64c1fd17ae6d655ef30d4da7",
+    "id": "64c76a660b897c32d4648a68",
     "name": "EVCSampleTrigger",
     "type": "DATABASE",
     "config": {
         "operation_types": [
             "INSERT",
-            "DELETE"
+            "DELETE",
+            "UPDATE"
         ],
         "database": "sample_mflix",
         "collection": "movies",
